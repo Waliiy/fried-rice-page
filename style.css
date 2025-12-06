@@ -1,0 +1,50 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+margin: 0;
+padding: 20px;
+color: #333;
+}
+
+.title {
+text-align: center;
+color: #2c3e50;
+}
+.subtitle {
+text-align: center;
+color: #555;
+}
+.section-title {
+color: #16a085;
+margin-bottom: 10px;
+}
+
+.recipe-image {
+display: block;
+margin: 20px auto;
+width: 400px;
+border-radius: 8px;
+}
+
+.recipe-wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+section {
+background: white;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+
+ul li, ol li {
+margin-bottom: 6px;
+}
+
+.tips {
+background: #e8f8f5;
+padding: 15px;
+border-left: 4px solid #16a085;
+}
